@@ -153,7 +153,7 @@ function pauseGame(e: KeyboardEvent) {
         <button on:click={()=> state = 'paused'} class='button-paused'>
             Paused
         </button>
-        <p class='mark-build'>Build by <span class="fw-600">Vercel</span></p>
+        <p class='mark-build'>Built by <span class="fw-600">Vercel</span></p>
         <p class='mark-made'>Made by <span class="fw-600">Ridho</span></p>
 {/if}
 
