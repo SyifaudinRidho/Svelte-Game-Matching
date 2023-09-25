@@ -61,3 +61,16 @@ button {
 	border: 2px solid var(--border);
 	display: none;
 }
+.mark-build {
+	position: absolute;
+	bottom: 2rem;
+	left: 2rem;
+}
+.mark-made {
+	position: absolute;
+	bottom: 2rem;
+	right: 2rem;
+}
+.fw-600 {
+	font-weight: 600;
+}

@@ -19,7 +19,7 @@ let selected: number[] = []
 let matches: string[] = []
 // timer game
 let timerId: number | null = null
-let time = 60
+let time = 1000
 
 // function for creating Grid
 function createGrid(){
@@ -148,11 +148,13 @@ function pauseGame(e: KeyboardEvent) {
 			>
             <div class="back" class:match>{card}</div>
             </button>
-        {/each}
-    </div>
-    <button on:click={()=> state = 'paused'} class='button-paused'>
-        Paused
-    </button>
+            {/each}
+        </div>
+        <button on:click={()=> state = 'paused'} class='button-paused'>
+            Paused
+        </button>
+        <p class='mark-build'>Build by <span class="fw-600">Vercel</span></p>
+        <p class='mark-made'>Made by <span class="fw-600">Ridho</span></p>
 {/if}
 
 <!-- Lost Game -->
@@ -170,6 +172,7 @@ function pauseGame(e: KeyboardEvent) {
         Play again
     </button>
 {/if}
+
 
 
 
