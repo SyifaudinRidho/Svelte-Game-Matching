@@ -19,7 +19,7 @@ let selected: number[] = []
 let matches: string[] = []
 // timer game
 let timerId: number | null = null
-let time = 1000
+let time = 60
 
 // function for creating Grid
 function createGrid(){
